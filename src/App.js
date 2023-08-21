@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./index.css"
+import Employess from "./components/Employess.js";
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-gradient bg-primary-subtle m-3 p-5 rounded-4">
+      <Employess />
     </div>
-  );
+  )
 }
 
 export default App;
